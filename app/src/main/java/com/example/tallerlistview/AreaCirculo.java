@@ -26,9 +26,9 @@ public class AreaCirculo extends AppCompatActivity {
             double res =  (Math.PI * Math.pow(r, 2));
 
             HashMap<String, Integer> dato = new HashMap<>();
-            dato.put("Radio", r);
+            dato.put(getString(R.string.txt_radio), r);
 
-            Operacion op = new Operacion("Calculo Area", "Circulo", dato, ""+res);
+            Operacion op = new Operacion(getString(R.string.txt_calculo_area), getString(R.string.txt_opc_area_4), dato, ""+res);
             op.guardar();
 
             resultado.setText(getString(R.string.txt_lbl_resultado) + " " + res);

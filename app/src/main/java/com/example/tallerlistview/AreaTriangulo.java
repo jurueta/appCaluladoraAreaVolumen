@@ -29,10 +29,10 @@ public class AreaTriangulo extends AppCompatActivity {
             float res = (base * altura)/2;
 
             HashMap<String, Integer> dato = new HashMap<>();
-            dato.put("Base", base);
-            dato.put("Altura", altura);
+            dato.put(getString(R.string.txt_base), base);
+            dato.put(getString(R.string.txt_altura), altura);
 
-            Operacion op = new Operacion("Calculo Area", "Triangulo", dato, ""+ res);
+            Operacion op = new Operacion(getString(R.string.txt_calculo_area), getString(R.string.txt_opc_area_3), dato, ""+ res);
             op.guardar();
 
             resultado.setText(getString(R.string.txt_lbl_resultado) + " " + res);

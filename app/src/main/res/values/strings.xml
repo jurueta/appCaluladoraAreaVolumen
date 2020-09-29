@@ -11,17 +11,17 @@
     <string name="txt_opc_area_2">Rectángulo</string>
     <string name="txt_opc_area_3">Triángulo</string>
     <string name="txt_opc_area_4">Círculo</string>
-    <string name="txt_lbl_cuadrado">Cuadrado</string>
+    <string name="txt_opc_volumen_1">Esfera</string>
+    <string name="txt_opc_volumen_2">Cilindro</string>
+    <string name="txt_opc_volumen_3">Cono</string>
+    <string name="txt_opc_volumen_4">Cubo</string>
     <string name="txt_lados_cuadrado">Valor Lados</string>
     <string name="txt_lbl_calcular">Calcular</string>
     <string name="txt_lbl_resultado">El resultado es:</string>
     <string name="txt_err_falta">Falta este dato</string>
     <string name="txt_btn_Limpiar">Limpiar</string>
-    <string name="txt_lbl_rectangulo">Rectangulo</string>
     <string name="txt_lbl_base_rec">Ingresar Base</string>
     <string name="txt_lbl_altura_rec">Ingresar Altura</string>
-    <string name="txt_lbl_triangulo">Triangulo</string>
-    <string name="txt_lbl_circulo">Circulo</string>
     <string name="txt_hint_radio">Ingrese Radio</string>
 
     <string-array name="opciones_principales">
@@ -29,10 +29,28 @@
         <item>@string/txt_opc_volumen</item>
         <item>@string/txt_opc_opreacion</item>
     </string-array>
+
     <string-array name="opciones_area">
         <item>@string/txt_opc_area_1</item>
         <item>@string/txt_opc_area_2</item>
         <item>@string/txt_opc_area_3</item>
         <item>@string/txt_opc_area_4</item>
     </string-array>
+
+    <string-array name="opciones_volumen">
+        <item>@string/txt_opc_volumen_1</item>
+        <item>@string/txt_opc_volumen_2</item>
+        <item>@string/txt_opc_volumen_3</item>
+        <item>@string/txt_opc_volumen_4</item>
+    </string-array>
+    <string name="txt_calculo_area">Calculo area</string>
+    <string name="txt_calculo_volumen">Calculo volumen</string>
+    <string name="txt_hint_largo_cubo">Ingrese Largo</string>
+    <string name="txt_hint_ancho_cubo">Ingrese Ancho</string>
+    <string name="txt_lados">Lados</string>
+    <string name="txt_largo">Largo</string>
+    <string name="txt_ancho">Ancho</string>
+    <string name="txt_altura">Altura</string>
+    <string name="txt_base">Base</string>
+    <string name="txt_radio">Radio</string>
 </resources>

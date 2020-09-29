@@ -26,9 +26,9 @@ public class AreaCuadrado extends AppCompatActivity {
             int res = lados * lados;
 
             HashMap<String, Integer> dato = new HashMap<>();
-            dato.put("Lados", lados);
+            dato.put(getString(R.string.txt_lados), lados);
 
-            Operacion op = new Operacion("Calculo Area", "Cuadrado", dato, ""+res);
+            Operacion op = new Operacion(getString(R.string.txt_calculo_area), getString(R.string.txt_opc_area_1), dato, ""+res);
             op.guardar();
 
             resultado.setText(getString(R.string.txt_lbl_resultado) + " " + res);

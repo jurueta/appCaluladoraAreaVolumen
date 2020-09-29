@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TallerListView</string>
+    <string name="txt_opc_area">Area</string>
+    <string name="txt_opc_volumen">Volumes</string>
+    <string name="txt_opc_opreacion">" Operations Performed"</string>
+    <string name="txt_opc_tabla_1">No</string>
+    <string name="txt_opc_tabla_2">Operation</string>
+    <string name="txt_opc_tabla_3">Inputs</string>
+    <string name="txt_opc_tabla_4">Response</string>
+    <string name="txt_opc_area_1">Square</string>
+    <string name="txt_opc_area_2">Rectangle</string>
+    <string name="txt_opc_area_3">Triangle</string>
+    <string name="txt_opc_area_4">Circle</string>
+    <string name="txt_opc_volumen_1">Sphere</string>
+    <string name="txt_opc_volumen_2">Cylinder</string>
+    <string name="txt_opc_volumen_3">Cone</string>
+    <string name="txt_opc_volumen_4">Cube</string>
+    <string name="txt_lados_cuadrado">Sides Value</string>
+    <string name="txt_lbl_calcular">Calculate</string>
+    <string name="txt_lbl_resultado">The result is:</string>
+    <string name="txt_err_falta">"This data is missing "</string>
+    <string name="txt_btn_Limpiar">Clear</string>
+    <string name="txt_lbl_base_rec">Enter Base</string>
+    <string name="txt_lbl_altura_rec">Enter Height</string>
+    <string name="txt_hint_radio">Enter Radius</string>
+    <string name="txt_calculo_area">Area calculation</string>
+    <string name="txt_calculo_volumen">Volume calculation</string>
+    <string name="txt_hint_largo_cubo">Enter Long</string>
+    <string name="txt_hint_ancho_cubo">Enter Width</string>
+    <string name="txt_radio">Radius</string>
+    <string name="txt_lados">Sides</string>
+    <string name="txt_largo">Long</string>
+    <string name="txt_ancho">" Width"</string>
+    <string name="txt_altura">Height</string>
+    <string name="txt_base">Base</string>
+</resources>

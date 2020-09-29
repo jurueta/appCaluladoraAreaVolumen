@@ -19,6 +19,7 @@ public class CalculoArea extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculo_area);
+
         listaPaginas = findViewById(R.id.lstvwFigurasArea);
         opciones = getResources().getStringArray(R.array.opciones_area);
         adaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,opciones);

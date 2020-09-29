@@ -11,7 +11,7 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txt_lbl_rectangulo"
+        android:text="@string/txt_opc_area_2"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
