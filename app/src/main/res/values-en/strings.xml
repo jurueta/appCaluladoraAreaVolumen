@@ -7,7 +7,7 @@
     <string name="txt_opc_tabla_1">No</string>
     <string name="txt_opc_tabla_2">Operation</string>
     <string name="txt_opc_tabla_3">Inputs</string>
-    <string name="txt_opc_tabla_4">Response</string>
+    <string name="txt_opc_tabla_4">Result</string>
     <string name="txt_opc_area_1">Square</string>
     <string name="txt_opc_area_2">Rectangle</string>
     <string name="txt_opc_area_3">Triangle</string>
